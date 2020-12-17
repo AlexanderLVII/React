@@ -1,0 +1,27 @@
+import Menu from './Menu';
+
+function App() {
+    const name = 'SuperSite';
+
+  return (
+    <div className= "App" >
+        <header>
+       <h1> hello pasv </h1>
+
+            <hr/>
+            <p>some text здесь some text здесь some text здесь some text здесь some text здесь</p>
+
+            <h2>Subtitle</h2>
+            <table border={1}>
+                <tr>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Count</td>
+                </tr>
+            </table>
+        </header>
+    </div>
+  );
+}
+
+export default App;
